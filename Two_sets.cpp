@@ -2,6 +2,14 @@
 #define ll long long int
 using namespace std;
 
+void print_vector(vector<int> v1,vector<int> v2) {
+    cout<<v1.size()<<endl;
+    for(auto i:v1) {cout<<i<<" ";}
+
+    cout<<endl<<v2.size()<<endl;
+    for(auto i:v2) {cout<<i<<" ";}  
+}
+
 int main() {
 
     int n;
@@ -25,7 +33,7 @@ int main() {
             else {
                 v2.push_back(s);
                 v2.push_back(e);
-                flag = 0;
+                flag = 1;
             }
             s++;
             e--;
@@ -34,5 +42,6 @@ int main() {
        return 0;
 
     }
-    
+
+
 }

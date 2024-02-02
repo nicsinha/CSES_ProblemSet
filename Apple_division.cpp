@@ -29,7 +29,6 @@ int main() {
         }
 
     }
-  cout<<sum-2*ans;
-
+    cout<<sum-2*ans;
 
 }
